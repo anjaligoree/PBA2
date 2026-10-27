@@ -1,10 +1,6 @@
-import csv
-
-with open("attendance.csv", "r") as file:
-    reader = csv.DictReader(file)
-
-    print("Employee Attendance Summary:")
-    for row in reader:
-        name = row["Name"]
-        days = row["DaysPresent"]
-        print(f"{name}: {days} days")
+EmpID,Name,DaysPresent
+201,Amit,25
+202,Priya,28
+203,Rahul,22
+204,Sneha,26
+205,Neha,24
